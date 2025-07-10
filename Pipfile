@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+discord = "*"
+opencv-python = "*"
+numpy = "==1.24.3"
+tensorflow = "==2.14.0"
+pillow = "*"
+requests = "*"
+imageai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
